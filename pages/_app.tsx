@@ -31,9 +31,9 @@ export default function MyApp({ Component, pageProps }) {
           </menu>
         </nav>
       </header>
-      <main>
+      <div className="content">
         <Component {...pageProps} />
-      </main>
+      </div>
     </div>
   )
 }
